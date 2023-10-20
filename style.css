@@ -44,11 +44,21 @@
     align-items: center;
     gap:30px;
     height: 80vh;
+    text-align: center;
+    font-size: 15pt;
+    color: rgb(212, 31, 134);
+  }
+
+  #Works h2{
+    text-align: center; 
+    font-family: 'Dancing Script', cursive; 
+    font-size: 50pt;
   }
 
   .lead {
     font-size: 2rem;
     font-weight: 300;
+    text-align: center;
   }
 
   #ContactMe > .container {
@@ -79,6 +89,48 @@
       flex-direction: column;
       height:1500px;
     }
+    #AboutMe > .container {
+      height: 120vh;
+    }
+
+    h1 {
+      font-size: 30pt;
+    }
+
+    h2 {
+      font-size: 20pt;
+    }
   }
 
+    @media (max-width: 400px){
+      #AboutMe > .container {
+        height: 140vh;
+      }
+  
+      h1 {
+        font-size: 20pt;
+      }
+  
+      .lead {
+        font-size: 10pt;
+      }
+
+      #Works h2{
+        font-size: 20pt;
+      }
+
+      #Works img {
+        width: 200px;
+        height:300px;
+      }
+
+      #ContactMe > .container {
+        height: 50vh;
+      }
+
+      #ContactMe > .small_container {
+        font-size: 8pt;
+
+      }
+    }
  
